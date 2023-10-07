@@ -35,6 +35,9 @@ body {
     background-color: var(--pink);
     flex-direction: column;
     align-items: center;
+    background-image: url(assets/1440tree.png);
+    /*background-image: url(assets/flowerbackground.svg);*/
+    background-attachment: fixed;
 }
 main{
     display: flex;
@@ -48,7 +51,7 @@ main{
     gap: 1rem;
     flex-direction: column;
     box-shadow: 11px 9px 4px rgba(0, 0, 0, 0.1);
-    background-color: var(--selective-pink);
+    background-color: var(--pink);
     align-items: flex-end;
 }
 .card-content {
@@ -88,6 +91,7 @@ header {
 }
 .header-item{
     display: flex;
+    color: var(--pink);
 }
 .logtype {
     
@@ -156,7 +160,7 @@ header {
         gap: 1rem;
         flex-direction: column;
         box-shadow: 11px 9px 4px rgba(0, 0, 0, 0.1);
-        background-color: var(--selective-pink);
+        background-color: var(--pink);
         align-items: flex-end;
     }
 }
